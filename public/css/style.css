@@ -1,0 +1,70 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+select:hover, input:hover, label:hover {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.submit-btn {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #333;
+    border: solid 2px #333;
+    background: #fff;
+    transition: .4s;
+    outline: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #333;
+    color: #fff;
+}
+
+blockquote {
+    position: relative;
+    padding: 30px 15px 8px 15px;
+    box-sizing: border-box;
+    font-style: italic;
+    background: #efefef;
+    color: #555;
+}
+
+blockquote:before{
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    content: "“";
+    font-family: sans-serif;
+    color: #cfcfcf;
+    font-size: 90px;
+    line-height: 1;
+}
+
+blockquote p {
+    padding: 0;
+    margin: 10px 0;
+    line-height: 1.7;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    color: #888888;
+    font-size: 0.9em;
+}
